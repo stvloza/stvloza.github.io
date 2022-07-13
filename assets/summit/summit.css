@@ -1,0 +1,65 @@
+a{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+    }
+  
+    a:hover{
+      text-decoration: none;
+    }
+  
+    .nav-link{
+      text-decoration: none;
+        color: white;
+        }
+  
+        .nav-link:hover{
+          text-decoration: underline;
+          color: #5495ff;
+        }
+  
+        .btn {
+          background-color: #21716FF;
+          border-radius: 2px;
+          color: white;
+          font-family: 'Raleway',sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          padding: 14px;
+          text-decoration: none;
+          text-transform: uppercase;
+          cursor: pointer;
+          border: solid blue 2px;
+        }
+  
+        .btn:hover {
+          background-color: #fff;
+    color: #2176FF;
+    transition: color .1s ease-in, background-color .1s ease-in;
+          }
+  
+          .btn:active {
+         font-size: 18px;
+    transition: font-size .1s ease-in-out;
+          }
+  
+          .activity {
+            font-size: 32px;
+            text-decoration: none;
+            border: 1px solid #2176FF;
+            cursor: pointer;
+          }
+  
+          .activity:hover {
+            background-color: white;
+            color: blue;
+           transition: color .1s ease-in, background-color .1s ease-in;
+            border: blue solid 4px;
+            cursor: pointer;
+          }
+  
+          .activity:active {
+            font-size: 40px;
+            transition: font-size .1s ease-in;
+          
+          }

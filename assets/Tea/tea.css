@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    font-family: "Helvetica"; 
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    flex-wrap: nowrap;
+    align-items: space-between;
+  }
+  
+   .header img {
+    background-color: black;
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    padding-bottom: 0;
+   }
+  
+   .header li {
+     display: inline-flex;
+     text-decoration: underline;
+     flex-wrap: space-between;
+     margin-left: 20px;
+     float: right;
+     justify-content: flex-end; 
+     color: white;
+   }
+  
+   .missioncontainer {
+     height: 700px;
+     width: 1200px;
+        background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*ol8jf1*_ga*MjA1ODUxNDEzMi4xNjQ1NTkxMDA2*_ga_3LRZM6TM9L*MTY1Njg4MTI3Ni4xNTEuMS4xNjU2ODgyODE0LjYw");
+        display: flex;
+        justify-content: center;
+        margin: 40px auto 40px auto;
+         }
+  
+  .textover{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 1200px;
+    height: 123px;
+  }
+  
+  
+  .trend-container {
+    display: inline-flex;
+    max-width: 1000px; 
+    height: auto;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center; 
+    margin: 15px;
+
+  }
+  
+  .trend img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px; 
+    }
+  
+  
+  .banner {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto; 
+    padding-top: 85px; 
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*8exouc*_ga*MjA1ODUxNDEzMi4xNjQ1NTkxMDA2*_ga_3LRZM6TM9L*MTY1Njg4NTUyOC4xNTIuMS4xNjU2ODg1NTMwLjU4")
+
+    }
+  
+  .box-container{
+  max-width: 1050px;
+  margin: 15px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: auto;
+    }
+  
+  .box {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+      padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.8;
+      }
+  
+  .contact {
+  text-align: center;
+  justify-content: center;
+  margin-top: 95px;
+  }
+  
+  footer {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  
+  
+  
